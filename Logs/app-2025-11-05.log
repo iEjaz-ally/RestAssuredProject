@@ -1,0 +1,342 @@
+[INFO ] 2025-11-05 14:12:16.856 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 14:12:25.074 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 14:14:58.068 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 14:15:06.672 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 14:17:27.203 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 14:17:36.364 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 14:23:18.383 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 14:27:07.826 [main] UserTextCases - ****Creating a new user****
+[ERROR] 2025-11-05 14:27:18.826 [main] UserTextCases - Unable to create user because of following reason The parameter "username" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 14:27:18.875 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 14:28:16.409 [main] UserTextCases - ****Creating a new user****
+[ERROR] 2025-11-05 14:28:26.027 [main] UserTextCases - Unable to create user because of following reason The parameter "username" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 14:28:26.062 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 14:29:40.199 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 14:30:18.738 [main] UserTextCases - ****Creating a new user****
+[ERROR] 2025-11-05 14:30:28.406 [main] UserTextCases - Unable to create user because of following reason The parameter "username" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 14:30:28.453 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 14:31:46.441 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 14:31:54.101 [main] UserTextCases - Test Passed
+[INFO ] 2025-11-05 14:31:54.135 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 14:36:33.453 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 14:36:40.634 [main] UserTextCases - Test Passed
+[INFO ] 2025-11-05 14:36:40.762 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 14:59:55.949 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:00:05.251 [main] UserTextCases - Test Passed
+[INFO ] 2025-11-05 15:00:05.399 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 15:01:40.699 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:01:47.667 [main] UserTextCases - Test Passed
+[INFO ] 2025-11-05 15:01:47.707 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 15:03:09.950 [main] UserTextCases - ****Creating a new user****
+[ERROR] 2025-11-05 15:03:18.995 [main] UserTextCases - Unable to create user because of following reason The parameter "username" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 15:03:19.019 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 15:04:35.975 [main] UserTextCases - ****Creating a new user****
+[ERROR] 2025-11-05 15:04:46.626 [main] UserTextCases - Unable to create user because of following reason The parameter "username" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 15:04:46.654 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 15:06:35.901 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:08:57.936 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:09:06.784 [main] UserTextCases - Test Passed
+[INFO ] 2025-11-05 15:09:06.809 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 15:10:20.412 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:13:13.064 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:14:21.014 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:16:39.870 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:21:03.471 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:24:32.037 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:25:20.077 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:25:54.613 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:28:39.040 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:29:32.719 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:31:32.324 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:32:48.739 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:34:47.194 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:35:22.861 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:37:12.807 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:38:20.453 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:40:04.071 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:41:12.721 [main] UserTextCases - ****Creating a new user****
+[ERROR] 2025-11-05 15:41:20.915 [main] UserTextCases - Unable to create user because of following reason The parameter "username" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 15:41:20.933 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 15:41:54.015 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:44:57.268 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:51:01.227 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:53:01.665 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:53:09.382 [main] UserTextCases - Test Passed
+[INFO ] 2025-11-05 15:53:09.418 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 15:55:47.587 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:55:54.247 [main] UserTextCases - Test Passed
+[INFO ] 2025-11-05 15:55:54.316 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 15:57:00.742 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 15:57:07.449 [main] UserTextCases - Test Passed
+[INFO ] 2025-11-05 15:57:07.522 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:00:38.692 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:01:21.539 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:01:28.705 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:01:30.350 [main] UserTextCases - ***** Updating user info*****
+[INFO ] 2025-11-05 16:07:29.919 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:07:37.720 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:07:39.440 [main] UserTextCases - ***** Updating user info*****
+[INFO ] 2025-11-05 16:09:49.561 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:09:56.591 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:09:58.361 [main] UserTextCases - ***** Updating user info*****
+[INFO ] 2025-11-05 16:10:57.223 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:11:03.986 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:11:05.785 [main] UserTextCases - ***** Updating user info*****
+[INFO ] 2025-11-05 16:11:38.126 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:11:45.509 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:11:47.056 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 16:11:50.274 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 16:13:46.877 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:13:54.927 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:13:56.807 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 16:14:00.916 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[DEBUG] 2025-11-05 16:18:40.064 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:40.074 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:40.076 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[TRACE] 2025-11-05 16:18:40.645 [main] XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2025-11-05 16:18:40.686 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2025-11-05 16:18:40.690 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2025-11-05 16:18:40.691 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2025-11-05 16:18:40.693 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2025-11-05 16:18:40.695 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2025-11-05 16:18:40.741 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2025-11-05 16:18:40.746 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2025-11-05 16:18:40.769 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2025-11-05 16:18:40.771 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2025-11-05 16:18:40.774 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2025-11-05 16:18:40.783 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2025-11-05 16:18:40.786 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2025-11-05 16:18:40.790 [main] XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2025-11-05 16:18:40.997 [main] XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2025-11-05 16:18:40.999 [main] XBeanDebug - Resolving type for handle themefd26doctype
+[TRACE] 2025-11-05 16:18:41.420 [main] XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+[TRACE] 2025-11-05 16:18:41.457 [main] XBeanDebug - Resolving type for handle ctstylesheet4257type
+[TRACE] 2025-11-05 16:18:41.474 [main] XBeanDebug - Resolving type for handle ctfonts6623type
+[TRACE] 2025-11-05 16:18:41.484 [main] XBeanDebug - Resolving type for handle ctfont14d8type
+[TRACE] 2025-11-05 16:18:41.500 [main] XBeanDebug - Resolving type for handle ctfills2c6ftype
+[TRACE] 2025-11-05 16:18:41.515 [main] XBeanDebug - Resolving type for handle ctfill550ctype
+[TRACE] 2025-11-05 16:18:41.521 [main] XBeanDebug - Resolving type for handle ctborders0d66type
+[TRACE] 2025-11-05 16:18:41.529 [main] XBeanDebug - Resolving type for handle ctborderf935type
+[TRACE] 2025-11-05 16:18:41.541 [main] XBeanDebug - Resolving type for handle ctcellxfs1322type
+[TRACE] 2025-11-05 16:18:41.549 [main] XBeanDebug - Resolving type for handle ctxf97f7type
+[TRACE] 2025-11-05 16:18:41.556 [main] XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+[TRACE] 2025-11-05 16:18:41.562 [main] XBeanDebug - Resolving type for handle ctdxfsb26atype
+[TRACE] 2025-11-05 16:18:41.568 [main] XBeanDebug - Resolving type for handle cttablestyles872ftype
+[TRACE] 2025-11-05 16:18:41.576 [main] XBeanDebug - Resolving type for handle sstf81fdoctype
+[TRACE] 2025-11-05 16:18:41.589 [main] XBeanDebug - Resolving type for handle ctsst44f3type
+[TRACE] 2025-11-05 16:18:41.616 [main] XBeanDebug - Resolving type for handle ctrsta472type
+[TRACE] 2025-11-05 16:18:41.663 [main] XBeanDebug - Resolving type for handle workbookec17doctype
+[TRACE] 2025-11-05 16:18:41.674 [main] XBeanDebug - Resolving type for handle ctworkbook83c3type
+[TRACE] 2025-11-05 16:18:41.684 [main] XBeanDebug - Resolving type for handle ctsheets49fdtype
+[TRACE] 2025-11-05 16:18:41.688 [main] XBeanDebug - Resolving type for handle ctsheet4dbetype
+[TRACE] 2025-11-05 16:18:41.699 [main] XBeanDebug - Resolving type for handle strelationshipid1e94type
+[TRACE] 2025-11-05 16:18:41.704 [main] XBeanDebug - Resolving type for handle worksheetf539doctype
+[TRACE] 2025-11-05 16:18:41.725 [main] XBeanDebug - Resolving type for handle ctworksheet530dtype
+[TRACE] 2025-11-05 16:18:41.746 [main] XBeanDebug - Resolving type for handle ctcols627ctype
+[TRACE] 2025-11-05 16:18:41.756 [main] XBeanDebug - Resolving type for handle ctcola95ftype
+[TRACE] 2025-11-05 16:18:41.793 [main] XBeanDebug - Resolving type for handle ctsheetdata8408type
+[TRACE] 2025-11-05 16:18:41.809 [main] XBeanDebug - Resolving type for handle ctrowdd39type
+[TRACE] 2025-11-05 16:18:41.821 [main] XBeanDebug - Resolving type for handle ctcell842btype
+[TRACE] 2025-11-05 16:18:41.837 [main] XBeanDebug - Resolving type for handle stcellrefe4e0type
+[TRACE] 2025-11-05 16:18:41.853 [main] XBeanDebug - Resolving type for handle cthyperlinks6416type
+[TRACE] 2025-11-05 16:18:41.859 [main] XBeanDebug - Resolving type for handle cthyperlink0c85type
+[TRACE] 2025-11-05 16:18:41.873 [main] XBeanDebug - Resolving type for handle stxstringf179type
+[DEBUG] 2025-11-05 16:18:41.909 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:41.912 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:41.914 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.006 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.009 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.014 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[TRACE] 2025-11-05 16:18:42.080 [main] XBeanDebug - Resolving type for handle stcelltypebf95type
+[TRACE] 2025-11-05 16:18:42.102 [main] XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+[TRACE] 2025-11-05 16:18:42.108 [main] XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+[TRACE] 2025-11-05 16:18:42.113 [main] XBeanDebug - Resolving type for handle ctworkbookpr03a5type
+[DEBUG] 2025-11-05 16:18:42.142 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.148 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.151 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.234 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.239 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.240 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.319 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.321 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.323 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.400 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.402 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.409 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.524 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.529 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.531 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.607 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.626 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.633 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.734 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.735 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.737 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.835 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.837 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.838 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.897 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.899 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.900 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:42.960 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:42.962 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:42.964 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:43.047 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:43.049 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:43.051 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2025-11-05 16:18:43.140 [main] CrudTestsExcel - *****Creating a new user*****
+[INFO ] 2025-11-05 16:18:50.484 [main] CrudTestsExcel - *****Creating a new user*****
+[DEBUG] 2025-11-05 16:18:52.171 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:52.172 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:52.173 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:52.245 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:52.247 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:52.248 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:18:52.303 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:18:52.304 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:18:52.307 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2025-11-05 16:18:52.362 [main] CrudTestsExcel - *****Deleting user*****
+[INFO ] 2025-11-05 16:18:53.913 [main] CrudTestsExcel - *****Deleting user*****
+[INFO ] 2025-11-05 16:18:55.888 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:18:57.475 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:18:59.048 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 16:19:02.284 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[DEBUG] 2025-11-05 16:20:45.854 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:45.865 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:45.868 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[TRACE] 2025-11-05 16:20:46.237 [main] XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2025-11-05 16:20:46.280 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2025-11-05 16:20:46.284 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2025-11-05 16:20:46.286 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2025-11-05 16:20:46.287 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2025-11-05 16:20:46.290 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2025-11-05 16:20:46.325 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2025-11-05 16:20:46.328 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2025-11-05 16:20:46.373 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2025-11-05 16:20:46.375 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2025-11-05 16:20:46.379 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2025-11-05 16:20:46.381 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2025-11-05 16:20:46.383 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2025-11-05 16:20:46.390 [main] XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2025-11-05 16:20:47.530 [main] XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2025-11-05 16:20:47.536 [main] XBeanDebug - Resolving type for handle themefd26doctype
+[TRACE] 2025-11-05 16:20:47.665 [main] XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+[TRACE] 2025-11-05 16:20:47.684 [main] XBeanDebug - Resolving type for handle ctstylesheet4257type
+[TRACE] 2025-11-05 16:20:47.695 [main] XBeanDebug - Resolving type for handle ctfonts6623type
+[TRACE] 2025-11-05 16:20:47.701 [main] XBeanDebug - Resolving type for handle ctfont14d8type
+[TRACE] 2025-11-05 16:20:47.716 [main] XBeanDebug - Resolving type for handle ctfills2c6ftype
+[TRACE] 2025-11-05 16:20:47.722 [main] XBeanDebug - Resolving type for handle ctfill550ctype
+[TRACE] 2025-11-05 16:20:47.727 [main] XBeanDebug - Resolving type for handle ctborders0d66type
+[TRACE] 2025-11-05 16:20:47.733 [main] XBeanDebug - Resolving type for handle ctborderf935type
+[TRACE] 2025-11-05 16:20:47.742 [main] XBeanDebug - Resolving type for handle ctcellxfs1322type
+[TRACE] 2025-11-05 16:20:47.748 [main] XBeanDebug - Resolving type for handle ctxf97f7type
+[TRACE] 2025-11-05 16:20:47.753 [main] XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+[TRACE] 2025-11-05 16:20:47.759 [main] XBeanDebug - Resolving type for handle ctdxfsb26atype
+[TRACE] 2025-11-05 16:20:47.765 [main] XBeanDebug - Resolving type for handle cttablestyles872ftype
+[TRACE] 2025-11-05 16:20:47.772 [main] XBeanDebug - Resolving type for handle sstf81fdoctype
+[TRACE] 2025-11-05 16:20:47.791 [main] XBeanDebug - Resolving type for handle ctsst44f3type
+[TRACE] 2025-11-05 16:20:47.811 [main] XBeanDebug - Resolving type for handle ctrsta472type
+[TRACE] 2025-11-05 16:20:47.848 [main] XBeanDebug - Resolving type for handle workbookec17doctype
+[TRACE] 2025-11-05 16:20:47.865 [main] XBeanDebug - Resolving type for handle ctworkbook83c3type
+[TRACE] 2025-11-05 16:20:47.878 [main] XBeanDebug - Resolving type for handle ctsheets49fdtype
+[TRACE] 2025-11-05 16:20:47.882 [main] XBeanDebug - Resolving type for handle ctsheet4dbetype
+[TRACE] 2025-11-05 16:20:47.891 [main] XBeanDebug - Resolving type for handle strelationshipid1e94type
+[TRACE] 2025-11-05 16:20:47.897 [main] XBeanDebug - Resolving type for handle worksheetf539doctype
+[TRACE] 2025-11-05 16:20:47.925 [main] XBeanDebug - Resolving type for handle ctworksheet530dtype
+[TRACE] 2025-11-05 16:20:47.953 [main] XBeanDebug - Resolving type for handle ctcols627ctype
+[TRACE] 2025-11-05 16:20:47.961 [main] XBeanDebug - Resolving type for handle ctcola95ftype
+[TRACE] 2025-11-05 16:20:48.020 [main] XBeanDebug - Resolving type for handle ctsheetdata8408type
+[TRACE] 2025-11-05 16:20:48.029 [main] XBeanDebug - Resolving type for handle ctrowdd39type
+[TRACE] 2025-11-05 16:20:48.050 [main] XBeanDebug - Resolving type for handle ctcell842btype
+[TRACE] 2025-11-05 16:20:48.097 [main] XBeanDebug - Resolving type for handle stcellrefe4e0type
+[TRACE] 2025-11-05 16:20:48.129 [main] XBeanDebug - Resolving type for handle cthyperlinks6416type
+[TRACE] 2025-11-05 16:20:48.144 [main] XBeanDebug - Resolving type for handle cthyperlink0c85type
+[TRACE] 2025-11-05 16:20:48.170 [main] XBeanDebug - Resolving type for handle stxstringf179type
+[DEBUG] 2025-11-05 16:20:48.202 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:48.207 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:48.209 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:48.292 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:48.294 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:48.297 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[TRACE] 2025-11-05 16:20:48.385 [main] XBeanDebug - Resolving type for handle stcelltypebf95type
+[TRACE] 2025-11-05 16:20:48.417 [main] XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+[TRACE] 2025-11-05 16:20:48.434 [main] XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+[TRACE] 2025-11-05 16:20:48.443 [main] XBeanDebug - Resolving type for handle ctworkbookpr03a5type
+[DEBUG] 2025-11-05 16:20:48.613 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:48.624 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:48.630 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:48.783 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:48.789 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:48.793 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:48.890 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:48.892 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:48.899 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:49.000 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:49.004 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:49.006 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:49.082 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:49.084 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:49.086 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:49.146 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:49.159 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:49.165 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:49.235 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:49.244 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:49.246 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:50.199 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:50.201 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:50.399 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:50.659 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:50.660 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:50.662 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:50.744 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:50.746 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:50.750 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:20:50.825 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:20:50.827 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:20:50.829 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2025-11-05 16:20:50.955 [main] CrudTestsExcel - *****Creating a new user*****
+[INFO ] 2025-11-05 16:21:00.047 [main] CrudTestsExcel - *****Creating a new user*****
+[DEBUG] 2025-11-05 16:21:01.576 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:21:01.577 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:21:01.578 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:21:01.657 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:21:01.660 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:21:01.662 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 16:21:01.739 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 16:21:01.741 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 16:21:01.742 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2025-11-05 16:21:01.971 [main] CrudTestsExcel - *****Deleting user*****
+[INFO ] 2025-11-05 16:21:03.551 [main] CrudTestsExcel - *****Deleting user*****
+[INFO ] 2025-11-05 16:21:05.493 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:21:07.385 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:21:08.872 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 16:21:12.038 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 16:35:16.213 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:35:23.680 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:35:25.414 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 16:35:28.103 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 16:38:02.595 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:38:10.342 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:38:12.100 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 16:38:14.881 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 16:39:11.957 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 16:39:19.150 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 16:39:20.955 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 16:39:25.171 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 18:31:15.237 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 18:31:31.963 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 18:31:33.881 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 18:31:41.756 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 18:32:50.029 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 18:33:38.183 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 18:33:40.823 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 18:33:51.363 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 18:46:26.596 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 18:46:34.506 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 18:46:36.384 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 18:46:40.899 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function
+[INFO ] 2025-11-05 18:58:59.956 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 18:59:08.286 [main] UserTextCases - ****Fetching user info****
+[INFO ] 2025-11-05 18:59:10.206 [main] UserTextCases - ***** Updating user info*****
+[ERROR] 2025-11-05 18:59:14.441 [main] UserTextCases - Could not update user info because of folllowing reason The parameter "firstName" was used but not defined. Define parameters using the JsonPath.param(...) function

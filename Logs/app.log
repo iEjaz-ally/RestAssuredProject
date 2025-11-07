@@ -1,0 +1,46 @@
+[DEBUG] 2025-11-05 12:07:16.252 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:16.261 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:16.265 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:18.930 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:18.934 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:18.940 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:19.060 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:19.062 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:19.064 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:19.252 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:19.255 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:19.258 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:19.435 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:19.438 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:19.440 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:19.800 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:19.806 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:19.820 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:19.881 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:19.884 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:19.889 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:20.028 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:20.034 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:20.049 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:20.171 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:20.173 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:20.174 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:20.297 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:20.299 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:20.300 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:20.589 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:20.590 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:20.591 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:20.713 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:20.714 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:20.716 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:20.867 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:20.869 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:20.872 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-11-05 12:07:21.114 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-11-05 12:07:21.118 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-11-05 12:07:21.123 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2025-11-05 12:07:21.371 [main] CrudTestsExcel - *****Creating a new user*****
+[INFO ] 2025-11-05 12:07:28.125 [main] CrudTestsExcel - *****Creating a new user*****
+[INFO ] 2025-11-05 12:07:30.262 [main] UserTextCases - ****Creating a new user****
+[INFO ] 2025-11-05 12:07:31.964 [main] UserTextCases - ****Fetching user info****
