@@ -3,6 +3,7 @@ package apiEndPoints;
 import static io.restassured.RestAssured.given;
 
 import java.io.File;
+import java.util.Map;
 import java.util.ResourceBundle;
 
 import apiPayloads.User;
@@ -51,4 +52,17 @@ public static Response deleteUser(String userName) {
 		return res;
 
 	}
+public static Response createNewPet(Map<String, Object> data) {
+	String urlString = getURL().getString("postNewPet");
+	Response response = given()
+						.contentType(ContentType.JSON)
+						.accept(ContentType.JSON)
+						.body(data)
+						.when()
+							.post(urlString);
+	
+	return response;
+						
+	
+}
 }
