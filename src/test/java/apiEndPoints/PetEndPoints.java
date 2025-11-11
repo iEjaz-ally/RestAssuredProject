@@ -6,6 +6,7 @@ import java.io.File;
 import java.util.Map;
 import java.util.ResourceBundle;
 
+import apiPayloads.PetPayload;
 import apiPayloads.User;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -40,6 +41,16 @@ public class PetEndPoints {
 		return response;
 	}
 
+	public static Response readPetByAvailability(String arg1) {
+		Response response = given()
+								.contentType(ContentType.JSON)
+								.accept(ContentType.JSON)
+								.queryParam("status", arg1)
+							.when()
+								.get(getURL().getString("getURLByStatus"));
+		
+		return response;
+	}
 public static Response deleteUser(String userName) {
 	String urlString=	getURL().getString("deleteURL");
 		Response res = given()
@@ -52,7 +63,7 @@ public static Response deleteUser(String userName) {
 		return res;
 
 	}
-public static Response createNewPet(Map<String, Object> data) {
+/*public static Response createNewPet(Map<String, Object> data) {
 	String urlString = getURL().getString("postNewPet");
 	Response response = given()
 						.contentType(ContentType.JSON)
@@ -62,7 +73,26 @@ public static Response createNewPet(Map<String, Object> data) {
 							.post(urlString);
 	
 	return response;
-						
+	}*/
+public static Response createNewPet(PetPayload petPayload) {
+	String urlString = getURL().getString("postNewPet");
+	Response response = given()
+						.contentType(ContentType.JSON)
+						.accept(ContentType.JSON)
+						.body(petPayload)
+						.when()
+							.post(urlString);
 	
+	return response;
+	}
+public static Response updatePet(int id, PetPayload petPayload) {
+	Response response = given()
+							.contentType(ContentType.JSON)
+							.accept(ContentType.JSON)
+							.queryParam("id", id)
+							.body(petPayload)
+							.when().put(getURL().getString("updateURL"));
+	return response;
+							
 }
 }

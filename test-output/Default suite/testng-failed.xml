@@ -5,8 +5,7 @@
     <classes>
       <class name="apiTest.PetTestCases">
         <methods>
-          <include name="postANewPet"/>
-          <include name="uploadImage"/>
+          <include name="getPetByAvailability"/>
         </methods>
       </class> <!-- apiTest.PetTestCases -->
     </classes>

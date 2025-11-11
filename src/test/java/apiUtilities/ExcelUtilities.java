@@ -44,7 +44,7 @@ public class ExcelUtilities {
 	public int getRowCount(String sheetName) throws IOException {
 		inputStream = new FileInputStream(filePathString);
 		workbook = new XSSFWorkbook(inputStream);
-		sheet = /*workbook.getSheet(sheetName); /*workbook.getSheetAt(0);*/ workbook.getSheet(workbook.getSheetName(0));
+		sheet = workbook.getSheet(sheetName);
 		int rowCount = sheet.getLastRowNum() - sheet.getFirstRowNum();
 		workbook.close();
 		inputStream.close();
@@ -54,7 +54,7 @@ public class ExcelUtilities {
 	public int getCellCount(String sheetName, int rowNum) throws IOException {
 		inputStream = new FileInputStream(filePathString);
 		workbook = new XSSFWorkbook(inputStream);
-		sheet = /*workbook.getSheet(sheetName); /*workbook.getSheetAt(0);*/ workbook.getSheet(workbook.getSheetName(0));
+		sheet = workbook.getSheet(sheetName);
 		row = sheet.getRow(rowNum);
 		int cellCount = row.getLastCellNum();
 		return cellCount;
@@ -63,7 +63,7 @@ public class ExcelUtilities {
 	public String getCelldata(String sheetName, int rownum, int columnNum) throws IOException {
 		inputStream = new FileInputStream(filePathString);
 		workbook = new XSSFWorkbook(inputStream);
-		sheet = /*workbook.getSheet(sheetName); /*workbook.getSheetAt(0);*/ workbook.getSheet(workbook.getSheetName(0));
+		sheet = workbook.getSheet(sheetName);
 		 row = sheet.getRow(rownum);
 		 cell = row.getCell(columnNum);
 		 
@@ -106,6 +106,31 @@ public class ExcelUtilities {
 				}
 				data.add(DataMap);
 			}
+			
+			
+		}catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return data;
+		
+	
+	}
+public Map<String,String> readDataForPetExcel1(String sheetName, int rowNum, int cellNum){
+		 DataFormatter formatter = new DataFormatter();
+		 HashMap<String, String> data = new HashMap<>();
+		
+		try{
+			inputStream = new FileInputStream(filePathString);
+			workbook = new XSSFWorkbook(inputStream);
+			sheet= workbook.getSheet(sheetName);
+			XSSFRow headerRow = sheet.getRow(0);
+			XSSFRow row = sheet.getRow(rowNum);
+			XSSFCell headerCell = headerRow.getCell(cellNum);
+			XSSFCell celldataCell = row.getCell(cellNum);
+			
+			data.put(headerCell.getStringCellValue(), celldataCell!=null? formatter.formatCellValue(celldataCell) : " "); 
+		
 			
 			
 		}catch (Exception e) {
