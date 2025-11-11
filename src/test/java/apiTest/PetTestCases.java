@@ -29,7 +29,7 @@ public class PetTestCases {
 	
 	PetPayload petPayload = new PetPayload();
 	
-	//@Test
+	@Test
 	public void uploadImage() {
 		File file = new File(System.getProperty("user.dir")+ File.separator + "TestData" + File.separator + "TestImage.jpg");
 		Response response = PetEndPoints.uploadImage(123, file);
@@ -68,7 +68,7 @@ public class PetTestCases {
 		
 		
 	}*/
-	//@Test(dataProvider = "dataProviderForPets", dataProviderClass = DataProviders.class)
+	@Test(dataProvider = "dataProviderForPets", dataProviderClass = DataProviders.class)
 	public void postANewPet1(HashMap<String, String> data) throws IOException {
 
 		Map<String, Object> categoryHashMap= new HashMap<>();
@@ -96,7 +96,7 @@ public class PetTestCases {
 		Assert.assertEquals(response.jsonPath().getString("category.name"), categoryHashMap.get("name"));	
 	}
 	
-	//@Test(dataProvider = "dataProviderForPets", dataProviderClass = DataProviders.class, dependsOnMethods = "uploadImage")
+	@Test(dataProvider = "dataProviderForPets", dataProviderClass = DataProviders.class, dependsOnMethods = "uploadImage")
 	public void updatePet(HashMap<String, String> data) throws IOException {
 		
 		petPayload.setName("Biscuit");
@@ -108,7 +108,7 @@ public class PetTestCases {
 		Assert.assertEquals(response.jsonPath().getString("status"), petPayload.getStatus());
 	
 	}
-	@Test/*(dependsOnMethods = "updatePet")*/
+	@Test(dependsOnMethods = "updatePet")
 	public void getPetByAvailability() {
 		Response response = PetEndPoints.readPetByAvailability("available");
 		
