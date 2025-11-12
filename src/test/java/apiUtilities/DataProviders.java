@@ -25,7 +25,7 @@ public class DataProviders {
 		
 		for(int i =1; i<=rowCount;i++) {
 			for(int j=0;j<cellCount;j++) {
-				apiDataStrings[i-1][j]= utilities.getCelldata(filePathString, i, j);
+				apiDataStrings[i-1][j]= utilities.getCelldata(utilities.getSheetName(0), i, j);
 			}
 		}
 		
@@ -39,7 +39,7 @@ public class DataProviders {
 		int rowCount =  utilities.getRowCount("Sheet1");
 		String[] apiDataStrings = new String[rowCount];
 		for(int i = 1; i<=rowCount;i++) {
-			apiDataStrings[i-1]= utilities.getCelldata(filePathString, i, 1);
+			apiDataStrings[i-1]= utilities.getCelldata(utilities.getSheetName(0), i, 1);
 		}
 		return apiDataStrings;
 	}
@@ -66,4 +66,16 @@ public class DataProviders {
 		
 		
 	}
+	@DataProvider(name="PETID")
+	public String[] getPetID() throws IOException {
+		
+		String filePathString = System.getProperty("user.dir")+ File.separator + "TestData" + File.separator+ "TestData.xlsx";
+		ExcelUtilities utilities = new ExcelUtilities(filePathString);
+		int rowCount =  utilities.getRowCount(utilities.getSheetName(1));
+		String[] apiDataStrings = new String[rowCount];
+		for(int i = 1; i<=rowCount;i++) {
+			apiDataStrings[i-1]= utilities.getCelldata(utilities.getSheetName(1), i, 0);
+		}
+		return apiDataStrings;
 	}
+}

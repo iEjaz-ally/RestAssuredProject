@@ -1,16 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="8" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-11T15:24:19 IST" name="Default suite" finished-at="2025-11-11T15:24:28 IST" duration-ms="8625">
+  <suite started-at="2025-11-12T21:14:29 IST" name="Default suite" finished-at="2025-11-12T21:15:35 IST" duration-ms="65530">
     <groups>
     </groups>
-    <test started-at="2025-11-11T15:24:19 IST" name="Default test" finished-at="2025-11-11T15:24:28 IST" duration-ms="8625">
+    <test started-at="2025-11-12T21:14:29 IST" name="Default test" finished-at="2025-11-12T21:15:35 IST" duration-ms="65530">
       <class name="apiTest.PetTestCases">
-        <test-method signature="getPetByAvailability()[pri:0, instance:apiTest.PetTestCases@74235045]" started-at="2025-11-11T15:24:19 IST" name="getPetByAvailability" finished-at="2025-11-11T15:24:28 IST" duration-ms="8443" status="PASS">
+        <test-method signature="uploadImage()[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:14:29 IST" name="uploadImage" finished-at="2025-11-12T21:14:58 IST" duration-ms="28560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadImage -->
+        <test-method signature="postANewPet1(java.util.HashMap)[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:07 IST" name="postANewPet1" data-provider="dataProviderForPets" finished-at="2025-11-12T21:15:12 IST" depends-on-methods="apiTest.PetTestCases.uploadImage" duration-ms="4657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{photoUrl=https://example.com/bruno.jpg, tagId=3001, name=Bruno, id=501, tagName=Bulldog, categoryName=Dogs, categoryId=1001, status=available}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postANewPet1 -->
+        <test-method signature="postANewPet1(java.util.HashMap)[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:12 IST" name="postANewPet1" data-provider="dataProviderForPets" finished-at="2025-11-12T21:15:14 IST" depends-on-methods="apiTest.PetTestCases.uploadImage" duration-ms="2200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{photoUrl=https://example.com/kitty.jpg, tagId=3002, name=Kitty, id=502, tagName=Persian, categoryName=Cats, categoryId=1002, status=sold}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postANewPet1 -->
+        <test-method signature="updatePet(java.util.HashMap)[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:16 IST" name="updatePet" data-provider="dataProviderForPets" finished-at="2025-11-12T21:15:18 IST" depends-on-methods="apiTest.PetTestCases.postANewPet1" duration-ms="2064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{photoUrl=https://example.com/bruno.jpg, tagId=3001, name=Bruno, id=501, tagName=Bulldog, categoryName=Dogs, categoryId=1001, status=available}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePet -->
+        <test-method signature="updatePet(java.util.HashMap)[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:18 IST" name="updatePet" data-provider="dataProviderForPets" finished-at="2025-11-12T21:15:20 IST" depends-on-methods="apiTest.PetTestCases.postANewPet1" duration-ms="1558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{photoUrl=https://example.com/kitty.jpg, tagId=3002, name=Kitty, id=502, tagName=Persian, categoryName=Cats, categoryId=1002, status=sold}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePet -->
+        <test-method signature="getPetByAvailability()[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:20 IST" name="getPetByAvailability" finished-at="2025-11-12T21:15:23 IST" depends-on-methods="apiTest.PetTestCases.updatePet" duration-ms="2624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPetByAvailability -->
+        <test-method signature="getPetByID(java.lang.String)[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:23 IST" name="getPetByID" data-provider="PETID" finished-at="2025-11-12T21:15:25 IST" depends-on-methods="apiTest.PetTestCases.getPetByAvailability" duration-ms="1808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[501]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetByID -->
+        <test-method signature="getPetByID(java.lang.String)[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:25 IST" name="getPetByID" data-provider="PETID" finished-at="2025-11-12T21:15:27 IST" depends-on-methods="apiTest.PetTestCases.getPetByAvailability" duration-ms="2362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[502]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetByID -->
+        <test-method signature="updatePetByID(java.lang.String)[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:29 IST" name="updatePetByID" data-provider="PETID" finished-at="2025-11-12T21:15:32 IST" depends-on-methods="apiTest.PetTestCases.getPetByID" duration-ms="2514" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[501]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <415>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <415>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at apiTest.PetTestCases.updatePetByID(PetTestCases.java:191)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePetByID -->
+        <test-method signature="updatePetByID(java.lang.String)[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:32 IST" name="updatePetByID" data-provider="PETID" finished-at="2025-11-12T21:15:35 IST" depends-on-methods="apiTest.PetTestCases.getPetByID" duration-ms="3111" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[502]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <415>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <415>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at apiTest.PetTestCases.updatePetByID(PetTestCases.java:191)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePetByID -->
+        <test-method signature="deletePetByID(java.lang.String)[pri:0, instance:apiTest.PetTestCases@51399530]" started-at="2025-11-12T21:15:35 IST" name="deletePetByID" finished-at="2025-11-12T21:15:35 IST" depends-on-methods="apiTest.PetTestCases.updatePetByID" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method apiTest.PetTestCases.deletePetByID() on instance apiTest.PetTestCases@51399530 depends on not successfully finished methods 
+[apiTest.PetTestCases.updatePetByID() on instance apiTest.PetTestCases@51399530]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method apiTest.PetTestCases.deletePetByID() on instance apiTest.PetTestCases@51399530 depends on not successfully finished methods 
+[apiTest.PetTestCases.updatePetByID() on instance apiTest.PetTestCases@51399530]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetByID -->
       </class> <!-- apiTest.PetTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

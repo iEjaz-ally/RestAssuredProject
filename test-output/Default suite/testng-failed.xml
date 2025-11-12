@@ -5,6 +5,12 @@
     <classes>
       <class name="apiTest.PetTestCases">
         <methods>
+          <include name="postANewPet1"/>
+          <include name="updatePet"/>
+          <include name="deletePetByID"/>
+          <include name="updatePetByID" invocation-numbers="0 1"/>
+          <include name="uploadImage"/>
+          <include name="getPetByID"/>
           <include name="getPetByAvailability"/>
         </methods>
       </class> <!-- apiTest.PetTestCases -->

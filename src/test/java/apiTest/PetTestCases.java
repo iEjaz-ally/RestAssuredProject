@@ -68,7 +68,7 @@ public class PetTestCases {
 		
 		
 	}*/
-	@Test(dataProvider = "dataProviderForPets", dataProviderClass = DataProviders.class)
+	@Test(dataProvider = "dataProviderForPets", dataProviderClass = DataProviders.class, dependsOnMethods = "uploadImage")
 	public void postANewPet1(HashMap<String, String> data) throws IOException {
 
 		Map<String, Object> categoryHashMap= new HashMap<>();
@@ -81,8 +81,7 @@ public class PetTestCases {
 		tagMap.put("id", Integer.valueOf(data.get("tagId")));
 		tagMap.put("name", data.get("tagName"));
 		
-		System.out.println(tagMap+ "this is tag" + data.get("photoUrl"));
-		
+			
 		petPayload.setCategory(categoryHashMap);
 		petPayload.setId(Integer.valueOf( data.get("id")));
 		petPayload.setName((data.get("name")));
@@ -96,7 +95,7 @@ public class PetTestCases {
 		Assert.assertEquals(response.jsonPath().getString("category.name"), categoryHashMap.get("name"));	
 	}
 	
-	@Test(dataProvider = "dataProviderForPets", dataProviderClass = DataProviders.class, dependsOnMethods = "uploadImage")
+	@Test(dataProvider = "dataProviderForPets", dataProviderClass = DataProviders.class, dependsOnMethods = "postANewPet1")
 	public void updatePet(HashMap<String, String> data) throws IOException {
 		
 		petPayload.setName("Biscuit");
@@ -114,7 +113,7 @@ public class PetTestCases {
 		
 		response.then().statusCode(200);
 		JsonArray jsonArray = JsonParser.parseString(response.getBody().asString()).getAsJsonArray();
-		System.out.println("HIIIIIIII");
+		
 		
 		System.out.println("Avaialable dogs are");
 		for(JsonElement jsonElement : jsonArray) {
@@ -133,7 +132,7 @@ public class PetTestCases {
 				}
 				
 			}
-			if(categoryString.equalsIgnoreCase("Dogs") && statusString.equalsIgnoreCase("available") ) {
+			if(categoryString.equalsIgnoreCase("Dogs") && (statusString.equalsIgnoreCase("available"))) {
 				
 				int id = petJsonObject.has("id") ? petJsonObject.get("id").getAsInt() : 0000;
 				String nameString = petJsonObject.has("name") ? petJsonObject.get("name").getAsString() : "Unknown";
@@ -162,6 +161,34 @@ public class PetTestCases {
         }
     }
 }  */
+	}
+	@Test(dependsOnMethods = "getPetByAvailability", dataProvider = "PETID", dataProviderClass = DataProviders.class)
+	public void getPetByID(String petId) {
+		int petID = Integer.valueOf(petId);
+		Response response = PetEndPoints.readPetByID(petID);
+		
+		response.then().statusCode(200);
+		
+		System.out.println("Dog name with ID "+petID +" "+response.jsonPath().getString("name"));
+		
+	}
+	@Test(dependsOnMethods = "updatePetByID", dataProvider = "PETID", dataProviderClass = DataProviders.class)
+	public void deletePetByID(String petId) {
+		int petID = Integer.valueOf(petId);
+		
+		Response response = PetEndPoints.deletePetByID(petID);
+		
+		
+		response.then().statusCode(200);
+		
+		System.out.println("Deleted pet information with ID "+petID);
+		
+	}
+	@Test(dataProvider = "PETID", dataProviderClass = DataProviders.class, dependsOnMethods =  "getPetByID")
+	public void updatePetByID(String petId) {
+		int petID = Integer.valueOf(petId);
+		Response response = PetEndPoints.updateAPetById(petID, "Biscuite", "available");
+		response.then().statusCode(200);
 	}
 
 }

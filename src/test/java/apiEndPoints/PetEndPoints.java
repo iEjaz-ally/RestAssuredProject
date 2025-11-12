@@ -95,4 +95,38 @@ public static Response updatePet(int id, PetPayload petPayload) {
 	return response;
 							
 }
+public static Response readPetByID(int ID) {
+	Response response = given()
+							.accept(ContentType.JSON)
+							.pathParam("petId", ID)
+							.when()
+								.get(getURL().getString("getURLByPetID"));
+	
+	return response;
+
+	}
+public static Response deletePetByID(int ID) {
+	Response response = given()
+							.accept(ContentType.JSON)
+							.queryParam("api_key", 123)
+							.pathParam("petId", ID)
+							.when()
+								.get(getURL().getString("deleteURLByPetID"));
+	
+	return response;
+
+	}
+public static Response updateAPetById(int petID, String updatedName, String updatedStatus) {
+	Response response = given().
+								contentType(ContentType.JSON)
+								.accept(ContentType.JSON)
+								.pathParam("petId", petID)
+								.formParam("name", updatedName)
+								.formParam("status", updatedStatus)
+								.when()
+									.post(getURL().getString("updatePetById"));
+	
+	return response;
+								
+	}
 }
