@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/2/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 12 21:14:29 IST 2025</td>
+<td>Started on:</td><td>Thu Nov 13 21:43:19 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>65 seconds (65530 ms)</td>
+<tr><td>Total time:</td><td>36 seconds (36011 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='apiTest.PetTestCases.updatePetByID()'><b>updatePetByID</b><br>Test class: apiTest.PetTestCases<br>Parameters: 501</td>
+<td title='apiTest.StoreTestCase.deleteOrder()'><b>deleteOrder</b><br>Test class: apiTest.StoreTestCase<br>Parameters: 102</td>
 <td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;415&gt;.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -102,7 +100,7 @@ Expected status code &lt;200&gt; but was &lt;415&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at apiTest.PetTestCases.updatePetByID(PetTestCases.java:191)
+	at apiTest.StoreTestCase.deleteOrder(StoreTestCase.java:62)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -129,17 +127,15 @@ Expected status code &lt;200&gt; but was &lt;415&gt;.
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1586222232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1586222232'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;415&gt;.
+</pre></div><a href='#' onClick='toggleBox("stack-trace345723898", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace345723898'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -155,7 +151,7 @@ Expected status code &lt;200&gt; but was &lt;415&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at apiTest.PetTestCases.updatePetByID(PetTestCases.java:191)
+	at apiTest.StoreTestCase.deleteOrder(StoreTestCase.java:62)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -183,18 +179,20 @@ Expected status code &lt;200&gt; but was &lt;415&gt;.
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>2</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
+<td>1</td>
+<td>apiTest.StoreTestCase@2d3379b4</td></tr>
 <tr>
-<td title='apiTest.PetTestCases.updatePetByID()'><b>updatePetByID</b><br>Test class: apiTest.PetTestCases<br>Parameters: 502</td>
+<td title='apiTest.StoreTestCase.deleteOrder()'><b>deleteOrder</b><br>Test class: apiTest.StoreTestCase<br>Parameters: 101</td>
 <td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;415&gt;.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -210,7 +208,7 @@ Expected status code &lt;200&gt; but was &lt;415&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at apiTest.PetTestCases.updatePetByID(PetTestCases.java:191)
+	at apiTest.StoreTestCase.deleteOrder(StoreTestCase.java:62)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -237,15 +235,17 @@ Expected status code &lt;200&gt; but was &lt;415&gt;.
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace74974017", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace74974017'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;415&gt;.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1268743900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1268743900'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -261,7 +261,7 @@ Expected status code &lt;200&gt; but was &lt;415&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at apiTest.PetTestCases.updatePetByID(PetTestCases.java:191)
+	at apiTest.StoreTestCase.deleteOrder(StoreTestCase.java:62)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -289,8 +289,8 @@ Expected status code &lt;200&gt; but was &lt;415&gt;.
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>3</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
+<td>1</td>
+<td>apiTest.StoreTestCase@2d3379b4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -301,102 +301,30 @@ Expected status code &lt;200&gt; but was &lt;415&gt;.
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='apiTest.PetTestCases.updatePet()'><b>updatePet</b><br>Test class: apiTest.PetTestCases<br>Parameters: {photoUrl=https://example.com/kitty.jpg, tagId=3002, name=Kitty, id=502, tagName=Persian, categoryName=Cats, categoryId=1002, status=sold}</td>
+<td title='apiTest.StoreTestCase.getInventory()'><b>getInventory</b><br>Test class: apiTest.StoreTestCase</td>
 <td></td>
 <td>1</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
+<td>apiTest.StoreTestCase@2d3379b4</td></tr>
 <tr>
-<td title='apiTest.PetTestCases.getPetByID()'><b>getPetByID</b><br>Test class: apiTest.PetTestCases<br>Parameters: 502</td>
+<td title='apiTest.StoreTestCase.getOrder()'><b>getOrder</b><br>Test class: apiTest.StoreTestCase<br>Parameters: 101</td>
 <td></td>
 <td>2</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
+<td>apiTest.StoreTestCase@2d3379b4</td></tr>
 <tr>
-<td title='apiTest.PetTestCases.postANewPet1()'><b>postANewPet1</b><br>Test class: apiTest.PetTestCases<br>Parameters: {photoUrl=https://example.com/bruno.jpg, tagId=3001, name=Bruno, id=501, tagName=Bulldog, categoryName=Dogs, categoryId=1001, status=available}</td>
-<td></td>
-<td>4</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
-<tr>
-<td title='apiTest.PetTestCases.getPetByID()'><b>getPetByID</b><br>Test class: apiTest.PetTestCases<br>Parameters: 501</td>
-<td></td>
-<td>1</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
-<tr>
-<td title='apiTest.PetTestCases.uploadImage()'><b>uploadImage</b><br>Test class: apiTest.PetTestCases</td>
-<td></td>
-<td>28</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
-<tr>
-<td title='apiTest.PetTestCases.postANewPet1()'><b>postANewPet1</b><br>Test class: apiTest.PetTestCases<br>Parameters: {photoUrl=https://example.com/kitty.jpg, tagId=3002, name=Kitty, id=502, tagName=Persian, categoryName=Cats, categoryId=1002, status=sold}</td>
+<td title='apiTest.StoreTestCase.postOrder()'><b>postOrder</b><br>Test class: apiTest.StoreTestCase<br>Parameters: {Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed}</td>
 <td></td>
 <td>2</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
+<td>apiTest.StoreTestCase@2d3379b4</td></tr>
 <tr>
-<td title='apiTest.PetTestCases.updatePet()'><b>updatePet</b><br>Test class: apiTest.PetTestCases<br>Parameters: {photoUrl=https://example.com/bruno.jpg, tagId=3001, name=Bruno, id=501, tagName=Bulldog, categoryName=Dogs, categoryId=1001, status=available}</td>
+<td title='apiTest.StoreTestCase.getOrder()'><b>getOrder</b><br>Test class: apiTest.StoreTestCase<br>Parameters: 102</td>
 <td></td>
 <td>2</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
+<td>apiTest.StoreTestCase@2d3379b4</td></tr>
 <tr>
-<td title='apiTest.PetTestCases.getPetByAvailability()'><b>getPetByAvailability</b><br>Test class: apiTest.PetTestCases</td>
+<td title='apiTest.StoreTestCase.postOrder()'><b>postOrder</b><br>Test class: apiTest.StoreTestCase<br>Parameters: {Id=101, petId=1001, quantity=1, complete=TRUE, status=placed}</td>
 <td></td>
-<td>2</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='apiTest.PetTestCases.deletePetByID()'><b>deletePetByID</b><br>Test class: apiTest.PetTestCases</td>
-<td><div><pre>java.lang.Throwable: Method apiTest.PetTestCases.deletePetByID() on instance apiTest.PetTestCases@51399530 depends on not successfully finished methods 
-[apiTest.PetTestCases.updatePetByID() on instance apiTest.PetTestCases@51399530]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1305777754", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1305777754'><pre>java.lang.Throwable: Method apiTest.PetTestCases.deletePetByID() on instance apiTest.PetTestCases@51399530 depends on not successfully finished methods 
-[apiTest.PetTestCases.updatePetByID() on instance apiTest.PetTestCases@51399530]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>apiTest.PetTestCases@51399530</td></tr>
+<td>11</td>
+<td>apiTest.StoreTestCase@2d3379b4</td></tr>
 </table><p>
 </body>
 </html>

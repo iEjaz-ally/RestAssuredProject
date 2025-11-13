@@ -7,8 +7,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
-import org.checkerframework.checker.lock.qual.NewObject;
 import org.testng.annotations.DataProvider;
 
 public class DataProviders {
@@ -78,4 +78,39 @@ public class DataProviders {
 		}
 		return apiDataStrings;
 	}
+	
+	@DataProvider(name="StoreDataProvider")
+	public Iterator<Object[]> getDataForStore() throws IOException{
+		String filePathString = System.getProperty("user.dir") + File.separator + "TestData" + File.separator+ "Testdata.xlsx";
+			ExcelUtilities utilities = new ExcelUtilities(filePathString);
+			int rowCount =  utilities.getRowCount(utilities.getSheetName(2));
+			int cellCount = utilities.getCellCount(utilities.getSheetName(2), 1);
+			
+			ArrayList<Object[]> list = new ArrayList<>();
+			
+			for(int i=1; i<=rowCount;i++) {
+				HashMap<String, String> map = new HashMap<>();
+				for(int j =0;j<cellCount;j++) {
+					
+					map.putAll(utilities.readDataFromExcelForStore(utilities.getSheetName(2), i, j));
+				}
+				list.add(new Object[] {map});
+			}
+			return list.iterator();	
+	}
+	@DataProvider(name="GETORDERID")
+	public Object[] getOrderID() throws IOException
+{
+		String filePathString = System.getProperty("user.dir") + File.separator + "TestData" + File.separator+ "Testdata.xlsx";
+		ExcelUtilities utilities = new ExcelUtilities(filePathString);
+		int rowCount =  utilities.getRowCount(utilities.getSheetName(2));
+		int cellCount = utilities.getCellCount(utilities.getSheetName(2), 1);
+		String[] orderIdStrings = new String[rowCount];
+		
+		for(int i =1;i<=rowCount;i++) {
+			orderIdStrings[i-1]= utilities.getCelldata(utilities.getSheetName(2), i, 0);
+		}
+		return orderIdStrings;
+		
+		}
 }

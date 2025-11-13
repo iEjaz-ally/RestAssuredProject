@@ -5,10 +5,15 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.sql.RowId;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.logging.log4j.core.message.ExtendedThreadInfoFactory;
 import org.apache.poi.poifs.crypt.DataSpaceMapUtils.DataSpaceMap;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -138,8 +143,25 @@ public Map<String,String> readDataForPetExcel1(String sheetName, int rowNum, int
 			e.printStackTrace();
 		}
 		return data;
-		
-	
 	}
+public Map<String, String> readDataFromExcelForStore(String sheetName, int rowNum, int cellNum){
+	DataFormatter formatter = new DataFormatter();
+	Map<String, String> dataMap = new HashMap<String, String>();
+	try {
+		inputStream = new FileInputStream(filePathString);
+		workbook = new XSSFWorkbook(inputStream);
+		sheet  = workbook.getSheet(sheetName);
+		XSSFRow headerRow = sheet.getRow(0);
+		XSSFCell headerCell = headerRow.getCell(cellNum);
+		
+		XSSFCell valueCell =sheet.getRow(rowNum).getCell(cellNum);		
+		dataMap.put(headerCell.getStringCellValue(), valueCell==null ? " " : formatter.formatCellValue(valueCell));
+		
+	}catch (Exception e) {
+		// TODO: handle exception
+		System.out.println(e.getMessage());
+	}
+	return dataMap;
+}
 	
 }
