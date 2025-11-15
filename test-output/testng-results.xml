@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+<testng-results ignored="0" total="7" passed="4" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-13T21:43:19 IST" name="Default suite" finished-at="2025-11-13T21:43:55 IST" duration-ms="36011">
+  <suite started-at="2025-11-15T12:44:06 IST" name="Default suite" finished-at="2025-11-15T12:45:11 IST" duration-ms="64605">
     <groups>
     </groups>
-    <test started-at="2025-11-13T21:43:19 IST" name="Default test" finished-at="2025-11-13T21:43:55 IST" duration-ms="36011">
+    <test started-at="2025-11-15T12:44:06 IST" name="Default test" finished-at="2025-11-15T12:45:11 IST" duration-ms="64605">
       <class name="apiTest.StoreTestCase">
-        <test-method signature="postOrder(java.util.HashMap)[pri:0, instance:apiTest.StoreTestCase@2d3379b4]" started-at="2025-11-13T21:43:26 IST" name="postOrder" data-provider="StoreDataProvider" finished-at="2025-11-13T21:43:38 IST" duration-ms="11796" status="PASS">
+        <test-method signature="JsonShcemaValidator()[pri:0, instance:apiTest.StoreTestCase@2b71e916]" started-at="2025-11-15T12:44:07 IST" name="JsonShcemaValidator" finished-at="2025-11-15T12:44:27 IST" duration-ms="20198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JsonShcemaValidator -->
+        <test-method signature="postOrder(java.util.HashMap)[pri:0, instance:apiTest.StoreTestCase@2b71e916]" started-at="2025-11-15T12:44:40 IST" name="postOrder" data-provider="StoreDataProvider" finished-at="2025-11-15T12:44:46 IST" duration-ms="5954" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postOrder -->
-        <test-method signature="postOrder(java.util.HashMap)[pri:0, instance:apiTest.StoreTestCase@2d3379b4]" started-at="2025-11-13T21:43:38 IST" name="postOrder" data-provider="StoreDataProvider" finished-at="2025-11-13T21:43:41 IST" duration-ms="2775" status="PASS">
+        <test-method signature="postOrder(java.util.HashMap)[pri:0, instance:apiTest.StoreTestCase@2b71e916]" started-at="2025-11-15T12:44:46 IST" name="postOrder" data-provider="StoreDataProvider" finished-at="2025-11-15T12:44:50 IST" duration-ms="4117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,33 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postOrder -->
-        <test-method signature="getInventory()[pri:0, instance:apiTest.StoreTestCase@2d3379b4]" started-at="2025-11-13T21:43:41 IST" name="getInventory" finished-at="2025-11-13T21:43:42 IST" depends-on-methods="apiTest.StoreTestCase.postOrder" duration-ms="1664" status="PASS">
+        <test-method signature="getInventory()[pri:0, instance:apiTest.StoreTestCase@2b71e916]" started-at="2025-11-15T12:44:50 IST" name="getInventory" finished-at="2025-11-15T12:45:03 IST" depends-on-methods="apiTest.StoreTestCase.postOrder" duration-ms="13307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInventory -->
-        <test-method signature="getOrder(java.lang.String)[pri:0, instance:apiTest.StoreTestCase@2d3379b4]" started-at="2025-11-13T21:43:45 IST" name="getOrder" data-provider="GETORDERID" finished-at="2025-11-13T21:43:48 IST" depends-on-methods="apiTest.StoreTestCase.getInventory" duration-ms="2908" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[101]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getOrder -->
-        <test-method signature="getOrder(java.lang.String)[pri:0, instance:apiTest.StoreTestCase@2d3379b4]" started-at="2025-11-13T21:43:48 IST" name="getOrder" data-provider="GETORDERID" finished-at="2025-11-13T21:43:51 IST" depends-on-methods="apiTest.StoreTestCase.getInventory" duration-ms="2491" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[102]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getOrder -->
-        <test-method signature="deleteOrder(java.lang.String)[pri:0, instance:apiTest.StoreTestCase@2d3379b4]" started-at="2025-11-13T21:43:51 IST" name="deleteOrder" data-provider="GETORDERID" finished-at="2025-11-13T21:43:53 IST" depends-on-methods="apiTest.StoreTestCase.getOrder" duration-ms="1678" status="FAIL">
+        <test-method signature="getOrder(java.lang.String)[pri:0, instance:apiTest.StoreTestCase@2b71e916]" started-at="2025-11-15T12:45:05 IST" name="getOrder" data-provider="GETORDERID" finished-at="2025-11-15T12:45:08 IST" depends-on-methods="apiTest.StoreTestCase.getInventory" duration-ms="2782" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -95,7 +77,7 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at apiTest.StoreTestCase.deleteOrder(StoreTestCase.java:62)
+at apiTest.StoreTestCase.getOrder(StoreTestCase.java:62)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -127,8 +109,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteOrder -->
-        <test-method signature="deleteOrder(java.lang.String)[pri:0, instance:apiTest.StoreTestCase@2d3379b4]" started-at="2025-11-13T21:43:53 IST" name="deleteOrder" data-provider="GETORDERID" finished-at="2025-11-13T21:43:55 IST" depends-on-methods="apiTest.StoreTestCase.getOrder" duration-ms="1812" status="FAIL">
+        </test-method> <!-- getOrder -->
+        <test-method signature="getOrder(java.lang.String)[pri:0, instance:apiTest.StoreTestCase@2b71e916]" started-at="2025-11-15T12:45:08 IST" name="getOrder" data-provider="GETORDERID" finished-at="2025-11-15T12:45:11 IST" depends-on-methods="apiTest.StoreTestCase.getInventory" duration-ms="2700" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -166,7 +148,7 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at apiTest.StoreTestCase.deleteOrder(StoreTestCase.java:62)
+at apiTest.StoreTestCase.getOrder(StoreTestCase.java:62)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -196,6 +178,40 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrder -->
+        <test-method signature="deleteOrder(java.lang.String)[pri:0, instance:apiTest.StoreTestCase@2b71e916]" started-at="2025-11-15T12:45:11 IST" name="deleteOrder" finished-at="2025-11-15T12:45:11 IST" depends-on-methods="apiTest.StoreTestCase.getOrder" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method apiTest.StoreTestCase.deleteOrder() on instance apiTest.StoreTestCase@2b71e916 depends on not successfully finished methods 
+[apiTest.StoreTestCase.getOrder() on instance apiTest.StoreTestCase@2b71e916]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method apiTest.StoreTestCase.deleteOrder() on instance apiTest.StoreTestCase@2b71e916 depends on not successfully finished methods 
+[apiTest.StoreTestCase.getOrder() on instance apiTest.StoreTestCase@2b71e916]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteOrder -->

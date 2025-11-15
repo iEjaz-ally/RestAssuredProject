@@ -23,12 +23,21 @@ import apiEndPoints.PetEndPoints;
 import apiPayloads.PetPayload;
 import apiUtilities.DataProviders;
 import apiUtilities.ExcelUtilities;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
 public class PetTestCases {
 	
 	PetPayload petPayload = new PetPayload();
 	
+	@Test(priority  =0)
+	public void validateSchema()
+	{
+	
+		Response response = PetEndPoints.readPetByID(2);
+		
+		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("JsonSchemaValidatoForPets.json")).statusCode(200);
+	}
 	@Test
 	public void uploadImage() {
 		File file = new File(System.getProperty("user.dir")+ File.separator + "TestData" + File.separator + "TestImage.jpg");

@@ -15,11 +15,19 @@ import org.testng.annotations.Test;
 import apiEndPoints.StoreEndPoints;
 import apiPayloads.StorePayLoad;
 import apiUtilities.DataProviders;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
 public class StoreTestCase {
 
 	StorePayLoad payLoad = new StorePayLoad();
+	
+	@Test(priority = 0)
+	public void JsonShcemaValidator() {
+		Response response = StoreEndPoints.getOrderByID(2);
+		
+		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("JsonSchemaValidatorForStore.json"));
+	}
 	
 	@Test(dataProvider = "StoreDataProvider",dataProviderClass = DataProviders.class)
 	public void postOrder(HashMap<String, String> data) {

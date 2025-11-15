@@ -5,8 +5,8 @@
     <classes>
       <class name="apiTest.StoreTestCase">
         <methods>
-          <include name="getOrder"/>
-          <include name="deleteOrder" invocation-numbers="0 1"/>
+          <include name="getOrder" invocation-numbers="0 1"/>
+          <include name="deleteOrder"/>
           <include name="postOrder"/>
           <include name="getInventory"/>
         </methods>

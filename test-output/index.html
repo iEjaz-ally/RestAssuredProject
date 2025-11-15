@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ejazh\AppData\Local\Temp\testng-eclipse-1800027924\testng-customsuite.xml</span>
+                    <span>C:\Users\ejazh\AppData\Local\Temp\testng-eclipse--1116257851\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
+                    <span class="method-stats">7 methods, 2 failed,  1 skipped,  4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,15 +103,29 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="deleteOrder(102)">deleteOrder(102)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="getOrder(102)">getOrder(102)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="deleteOrder(101)">deleteOrder(101)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="getOrder(101)">getOrder(101)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="deleteOrder">deleteOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,27 +136,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="JsonShcemaValidator">JsonShcemaValidator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="getInventory">getInventory</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="getOrder(101)">getOrder(101)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="getOrder(102)">getOrder(102)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="postOrder({Id=101, petId=1001, quantity=1, complete=TRUE, status=placed})">postOrder({Id=101, petId=1001, quantity=1, complete=TRUE, status=placed})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="postOrder({Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed})">postOrder({Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="apiTest.StoreTestCase" class="method navigator-link" hash-for-method="postOrder({Id=101, petId=1001, quantity=1, complete=TRUE, status=placed})">postOrder({Id=101, petId=1001, quantity=1, complete=TRUE, status=placed})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -165,9 +174,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteOrder(102)">
-                  </a> <!-- deleteOrder(102) -->
-                  <span class="method-name">deleteOrder</span>
+                  <a name="getOrder(102)">
+                  </a> <!-- getOrder(102) -->
+                  <span class="method-name">getOrder</span>
                   <span class="parameters">(102)</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
@@ -192,7 +201,7 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at apiTest.StoreTestCase.deleteOrder(StoreTestCase.java:62)
+	at apiTest.StoreTestCase.getOrder(StoreTestCase.java:62)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -225,9 +234,9 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteOrder(101)">
-                  </a> <!-- deleteOrder(101) -->
-                  <span class="method-name">deleteOrder</span>
+                  <a name="getOrder(101)">
+                  </a> <!-- getOrder(101) -->
+                  <span class="method-name">getOrder</span>
                   <span class="parameters">(101)</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
@@ -254,7 +263,7 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at apiTest.StoreTestCase.deleteOrder(StoreTestCase.java:62)
+	at apiTest.StoreTestCase.getOrder(StoreTestCase.java:62)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -287,6 +296,44 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">apiTest.StoreTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteOrder">
+                  </a> <!-- deleteOrder -->
+                  <span class="method-name">deleteOrder</span>
+                  <div class="stack-trace">java.lang.Throwable: Method apiTest.StoreTestCase.deleteOrder() on instance apiTest.StoreTestCase@2b71e916 depends on not successfully finished methods 
+[apiTest.StoreTestCase.getOrder() on instance apiTest.StoreTestCase@2b71e916]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -295,33 +342,16 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="JsonShcemaValidator">
+                  </a> <!-- JsonShcemaValidator -->
+                  <span class="method-name">JsonShcemaValidator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="getInventory">
                   </a> <!-- getInventory -->
                   <span class="method-name">getInventory</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getOrder(101)">
-                  </a> <!-- getOrder(101) -->
-                  <span class="method-name">getOrder</span>
-                  <span class="parameters">(101)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getOrder(102)">
-                  </a> <!-- getOrder(102) -->
-                  <span class="method-name">getOrder</span>
-                  <span class="parameters">(102)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="postOrder({Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed})">
-                  </a> <!-- postOrder({Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed}) -->
-                  <span class="method-name">postOrder</span>
-                  <span class="parameters">({Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -332,12 +362,20 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
                   <span class="parameters">({Id=101, petId=1001, quantity=1, complete=TRUE, status=placed})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postOrder({Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed})">
+                  </a> <!-- postOrder({Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed}) -->
+                  <span class="method-name">postOrder</span>
+                  <span class="parameters">({Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ejazh\AppData\Local\Temp\testng-eclipse-1800027924\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ejazh\AppData\Local\Temp\testng-eclipse--1116257851\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -388,38 +426,38 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'postOrder')
+data.setCell(0, 1, 'JsonShcemaValidator')
 data.setCell(0, 2, 'apiTest.StoreTestCase')
-data.setCell(0, 3, 11796);
+data.setCell(0, 3, 20198);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getOrder')
+data.setCell(1, 1, 'getInventory')
 data.setCell(1, 2, 'apiTest.StoreTestCase')
-data.setCell(1, 3, 2908);
+data.setCell(1, 3, 13307);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'postOrder')
 data.setCell(2, 2, 'apiTest.StoreTestCase')
-data.setCell(2, 3, 2775);
+data.setCell(2, 3, 5954);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getOrder')
+data.setCell(3, 1, 'postOrder')
 data.setCell(3, 2, 'apiTest.StoreTestCase')
-data.setCell(3, 3, 2491);
+data.setCell(3, 3, 4117);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'deleteOrder')
+data.setCell(4, 1, 'getOrder')
 data.setCell(4, 2, 'apiTest.StoreTestCase')
-data.setCell(4, 3, 1812);
+data.setCell(4, 3, 2782);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'deleteOrder')
+data.setCell(5, 1, 'getOrder')
 data.setCell(5, 2, 'apiTest.StoreTestCase')
-data.setCell(5, 3, 1678);
+data.setCell(5, 3, 2700);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'getInventory')
+data.setCell(6, 1, 'deleteOrder')
 data.setCell(6, 2, 'apiTest.StoreTestCase')
-data.setCell(6, 3, 1664);
+data.setCell(6, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -447,36 +485,32 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">apiTest.StoreTestCase</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">postOrder({Id=101, petId=1001, quantity=1, complete=TRUE, status=placed})</span>
+                <span class="method-name">JsonShcemaValidator</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">postOrder({Id=101, petId=1001, quantity=1, complete=TRUE, status=placed})</span>
+                <span class="method-start">33388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">postOrder({Id=102, petId=1002, quantity=2, complete=FALSE, status=not placed})</span>
-                <span class="method-start">11819 ms</span>
+                <span class="method-start">39350 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getInventory</span>
-                <span class="method-start">14607 ms</span>
+                <span class="method-start">43501 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">getOrder(101)</span>
-                <span class="method-start">19399 ms</span>
+                <span class="method-start">58818 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">getOrder(102)</span>
-                <span class="method-start">22326 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">deleteOrder(101)</span>
-                <span class="method-start">25404 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">deleteOrder(102)</span>
-                <span class="method-start">27113 ms</span>
+                <span class="method-start">61622 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

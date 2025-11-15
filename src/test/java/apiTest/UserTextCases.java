@@ -1,6 +1,7 @@
 package apiTest;
 
 import apiPayloads.User;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
@@ -41,6 +42,14 @@ public class UserTextCases {
 		logger= LogManager.getLogger(this.getClass());
 		
 	}
+	
+	@Test(priority = 0)
+	public void SchemaValidator() {
+		Response response = UserEndPoints.readUser("John");
+		
+		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("JsonSchemaValidatorForUser.json"));
+	}
+	
 	@Test
 	public void testPostUser() {
 		try {
